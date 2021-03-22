@@ -1,0 +1,9 @@
+@import '../../styles/_base.scss';
+
+.verticalDivider {
+  height: 100%;
+  width: 10px;
+  border-right: 1px solid $siui-divider-color;
+  margin-right: 8px;
+  margin-left: 8px;
+}

@@ -1,0 +1,65 @@
+@import '../../styles/_base.scss';
+
+.textBase {
+	display: inline-block;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.textSizeSmall {
+	font-size: 11px;
+}
+
+.textSizeNormal {
+	font-size: 12px;
+}
+
+.textSizeMed1{
+	font-size: 14px;
+}
+
+.textSizeMed2{
+	font-size: 16px;
+}
+
+.textSizeLarge1{
+	font-size: 18px;
+}
+
+.textSizeLarge2{
+	font-size: 20px;
+}
+
+.textColorNormal{
+	color: rgba(0,0,0,.65);
+}
+
+.textColorDark {
+	color: rgba(0,0,0,.85);
+}
+
+.textColorGrey5{
+	color: $siui-color-grey-5;
+}
+
+.textColorGrey6{
+	color: $siui-color-grey-6;
+}
+
+.textColorLabel {
+	color: $siui-color-label;
+}
+
+.textWeightNormal{
+	font-weight: 500;
+}
+
+.textWeightMed1{
+	font-weight: 600;
+}
+
+.textWeightMed2{
+	font-weight: 700;
+}

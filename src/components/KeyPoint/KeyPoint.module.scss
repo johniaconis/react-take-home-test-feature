@@ -1,0 +1,160 @@
+@import '../../styles/_base.scss';
+
+
+//$kpi-margin-labelvalue: $siui-large-margin;
+
+.outer{
+	display: inline-block;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	z-index: 1;
+	position: relative;
+
+}
+
+.label {
+	margin-top: 0px;
+}
+
+.labelSmall {
+  font-size: $siui-text-size-small-1;
+  margin-top: -8px;
+}
+
+.labelTitleKPI {
+  margin-top: -6px;
+}
+
+.text {
+	padding-left: 18px;
+}
+
+.textSmall {
+	padding-left: 14px;
+}
+
+.color{
+	color: blue;
+}
+
+.paddingExtraSmall{
+	padding-top: 2px;
+  margin-top: -4px;
+  padding-bottom: 5px;
+}
+
+.paddingSmall{
+	padding-top: 2px;
+}
+
+.paddingMedium{
+	padding-top: 8px;
+}
+
+
+.paddingLarge{
+	padding-top: 20px;
+}
+
+.iconDefault{
+  color: $siui-icon-color;
+	font-size: $siui-icon-size-default;
+	height: $siui-icon-size-default;
+	width: $siui-icon-size-default;
+}
+
+.iconSmall{
+  color: $siui-icon-color;
+	font-size: $siui-icon-size-small3;
+	height: $siui-icon-size-small3;	
+	width: $siui-icon-size-small3;
+}
+
+.iconMed1{
+  color: $siui-icon-color;
+	font-size: $siui-icon-size-med1;	
+	height: $siui-icon-size-med1;
+	width: $siui-icon-size-med1;
+}
+
+.iconMedium{
+  color: $siui-icon-color;
+	font-size: $siui-icon-size-med2;
+	height: $siui-icon-size-med2;	
+	width: $siui-icon-size-med2;
+}
+
+.iconLarge{
+  color: $siui-icon-color;
+	font-size: $siui-icon-size-large2;
+	height: $siui-icon-size-large2;	
+	width: $siui-icon-size-large2;	
+}
+
+
+
+//Account List Card
+.labelAcccountList {
+  font-size: $siui-text-size-small-1;
+  height: $siui-icon-size-default;	
+  width: $siui-icon-size-default;	
+  margin-top: 0px;
+}
+
+.iconAccountList{
+  color: $siui-icon-color;
+  font-size: $siui-icon-size-small4;
+  height: $siui-icon-size-small4;
+  width: $siui-icon-size-small4;
+}
+
+
+
+//Headband
+
+ #headbandLabelID { 
+ 	color: green !important; 
+ }
+
+.outerHeadband {
+	margin-top: -10px;
+}
+
+.valueHeadband {
+
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+.labelHeadband {
+	font-family: $siui-font-family; //remove this when use text component for headband
+	line-height: 1.2;
+}
+
+.iconHeadband{
+  color: $siui-icon-color;
+  font-size: $siui-icon-size-med2;
+	height: 50px;	
+	width: 50px;
+	margin-top: 16px;
+}
+
+
+
+// Title
+.outerTitle{
+  margin-top: -8px;
+}
+
+.paddingTitle{
+  padding-bottom:4px;
+  margin-top: -2px;
+}
+
+.labelTitle {
+	line-height: 1.2;
+  margin-top: -7px;
+}
+
+

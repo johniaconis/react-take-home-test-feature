@@ -1,0 +1,58 @@
+@import '../../styles/_base.scss';
+
+.tabTitle {
+  position: relative;
+  width: 100%;
+  padding: 0px 24px;
+}
+
+.icon {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+  color: $siui-color-brand-teal-med;
+}
+
+:global(.ant-tabs-bar) {
+  margin-top: 10px !important;
+}
+
+:global(.ant-tabs-tabpane) {
+  .icon {
+    position: relative;
+    top: 0px;
+    left: 10px;
+  }
+}
+
+:global(.ant-tabs-tab) {
+  padding: 8px 0px !important;
+}
+
+.customIcon {
+  display: inline-block;
+  position: absolute;
+  right: 6px;
+  top: 2px;
+}
+
+:global(.ant-tabs-tabpane) {
+  .customIcon {
+    position: relative;
+    top: 0px;
+    left: 10px;
+  }
+}
+
+
+.required {
+  color: $siui-color-brand-teal-med;
+  font-weight: 400;
+  margin-right: 1px;
+}
+
+.iconError {
+  position: relative;
+  left: 10px;
+  color: $siui-color-failure;
+}

@@ -1,0 +1,94 @@
+@import '../../styles/_base.scss';
+
+.navBar {
+  font-family: $siui-font-family !important;
+  font-size: $siui-text-size-med-1 !important;
+  background-color: $siui-color-navbar-background !important;
+  line-height: 64px !important;  
+}
+
+.preloginNavbar {
+  line-height: 62px !important;
+  border-bottom: none !important;
+}
+
+.preloginProductName {
+  font-size: 14px;
+  margin-left: 4px;
+  color: black;
+  font-weight: 600;
+  font-family: $siui-font-family;
+}
+
+.navBar :global(.ant-menu-sub) {
+  background-color: $siui-color-navbar-background !important;
+  margin-top: -15px !important;
+  margin-left: 40px !important;
+  padding-right: 68px !important;
+  border-color: $siui-color-navbar-background !important;
+  box-shadow: none !important;
+}
+
+.navBarContainer{
+  
+}
+
+.navBarContainer {
+  :global(.ant-layout-header){
+    height: auto;
+  }
+}
+
+.navBarContainer :global(.ant-menu-item-selected){
+  background-color: transparent !important;
+}
+
+.navBarContainer :global(.ant-menu-horizontal){
+  border-bottom: 0px;
+}
+
+.navBar :global(.ant-menu-item-active) {
+  color: yellow !important;
+}
+
+.imgblock {
+  position: relative;
+  left: -48px;
+}
+
+.logoTexts{
+  padding: 0px;
+}
+
+.logo {
+  width: 100px;
+  height: 28px;
+  position: relative;
+  top: 4px;
+}
+
+.productName {
+  margin-left: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.firstItem {
+  margin-right: 40px;
+}
+
+.prelogin {
+  cursor: default !important;
+}
+
+.userIcon {
+  float: right !important;
+  font-size: 13px !important;
+  color: #fff !important;
+}
+
+.userBlock {
+  position: relative;
+  right: -35px;
+  top: 1px;
+}

@@ -1,0 +1,10 @@
+.label {
+  margin-right: 10px;
+}
+
+:global(.ant-select-dropdown-menu-item) {
+  overflow: visible;
+  float: left;
+  clear: both;
+  min-width: 100%;
+}

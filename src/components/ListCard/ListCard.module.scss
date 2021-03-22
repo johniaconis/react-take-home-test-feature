@@ -1,0 +1,40 @@
+@import '../../styles/_base.scss';
+
+.enumeration{
+	margin-right: 00px;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+.listItem{
+	border-left: 1px solid $siui-divider-color;
+	width: 100%;
+	padding-left: 24px;
+	margin-bottom: 18px;
+}
+
+.listBlock{
+	display: inline-block;
+	width: 100%;
+}
+
+.listCard{
+	padding-bottom: 10px;
+}
+
+.rowBase{
+	padding-left:24px;
+}
+
+.clickableRow{
+	&:hover{
+		cursor: pointer;
+		:global(.ant-progress-bg){
+			background-color: $siui-color-brand-teal;
+		}
+	}
+}
+
+.listBody{
+	padding: 0 0 0 0 !important;
+}

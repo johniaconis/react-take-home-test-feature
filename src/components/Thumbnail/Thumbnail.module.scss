@@ -1,0 +1,16 @@
+@import '../../styles/_base.scss';
+
+.base {
+  border: 1px solid $siui-color-grey-4; /* Gray border */
+}
+
+.defaultSize{
+  max-width: 175px; /* Set a small width */
+  max-height: 150px;
+}
+
+.preview{
+  &:hover {
+  	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+}

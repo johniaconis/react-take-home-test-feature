@@ -1,0 +1,26 @@
+@import '../../styles/_base.scss';
+
+.header {
+  position: absolute;
+  background: #fff;
+  min-width: $website-min-width - 52;
+  margin-top: -70px;
+  padding-top: 20px;
+  height: 70px;
+}
+
+.topBreak {
+  position: relative;
+  margin-top: -20px;
+  background: #fff;
+  height: 70px;
+  width: 200%;
+  margin-left: -50%;
+  margin-right: 50%;
+  overflow-x: hidden;
+}
+
+.headerContents{
+  position: absolute;
+
+}

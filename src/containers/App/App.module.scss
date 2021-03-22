@@ -1,0 +1,18 @@
+@import '../../styles/_base.scss';
+
+.appBody {
+  padding: 20px !important;
+  min-height: 600px !important;
+  min-width: $website-min-width !important;
+  overflow-x: hidden;
+}
+
+.loadingWrapper {
+  margin-top: 200px;
+}
+
+.footer {
+  background-color: $siui-color-body-background !important;
+  min-width: $website-min-width !important;
+  text-align: center;
+}

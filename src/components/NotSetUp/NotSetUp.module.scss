@@ -1,0 +1,30 @@
+.button {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 252px;
+  height: 48px;
+  border-radius: 2px;
+  border: solid 1px transparent;
+  background-color: #00a19b;
+  box-shadow: 0 3px 0 0 #007571;
+  &:hover{
+    border: solid 1px transparent;
+    background-color: #00b3ad;
+    cursor: pointer;
+  }
+}
+
+.title{
+  margin-top: 36px;
+  margin-bottom: 10px;
+}
+
+.instructionText{
+  line-height: 2.06;
+  font-weight: 500;
+  
+}
+
+.instruction{
+  margin-bottom: 42px;
+}

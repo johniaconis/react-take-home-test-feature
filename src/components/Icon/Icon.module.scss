@@ -1,0 +1,138 @@
+@import '../../styles/_base.scss';
+
+.sizeDefault{
+  font-size: $siui-icon-size-small1;
+  width: $siui-icon-size-small1;
+  height: $siui-icon-size-small1;
+}
+
+.sizeSmall{
+  font-size: $siui-icon-size-small2;
+  width: 24px;
+  height: 24px;
+}
+
+.small3 {
+  font-size: $siui-icon-size-small3;
+  width: $siui-icon-size-small3;
+  height: $siui-icon-size-small3;
+}
+
+.sizeMedium{
+  font-size: $siui-icon-size-small1 !important;
+  width: $siui-icon-size-small1 !important;
+  height: $siui-icon-size-small1 !important;
+}
+
+.sizeMedium1{
+  font-size: $siui-icon-size-med1 !important;
+  width: $siui-icon-size-med1 !important;
+  height: $siui-icon-size-med1 !important;
+}
+
+.sizeSmall4{
+  font-size: $siui-icon-size-small4 !important;
+  width: $siui-icon-size-small4 !important;
+  height: $siui-icon-size-small4 !important;
+}
+
+.sizeMed2{
+  font-size: $siui-icon-size-med2 !important;
+  width: $siui-icon-size-med2 !important;
+  height: $siui-icon-size-med2 !important;
+}
+
+.sizeLarge1{
+  font-size: $siui-icon-size-large1 !important;
+  width: $siui-icon-size-large1 !important;
+  height: $siui-icon-size-large1 !important;
+}
+
+.sizeLarge2{
+  font-size: $siui-icon-size-large2 !important;
+  width: $siui-icon-size-large2 !important;
+  height: $siui-icon-size-large2 !important;
+}
+
+.sizeExtraLarge{
+  font-size: $siui-icon-size-extraLarge;
+  width: $siui-icon-size-extraLarge;
+  height: $siui-icon-size-extraLarge;
+}
+
+.sizeExtraLarge{
+  font-size: $siui-icon-size-extraLarge;
+}
+
+.orange{
+  color: $siui-color-orange;
+}
+
+.black{
+  color: $siui-color-black;
+}
+
+.blue{
+  color: $siui-color-upload-blue;
+}
+
+.red{
+  color: $siui-icon-color-error;
+}
+
+
+.green {
+  color: $siui-color-green;
+}
+
+.darkTeal{
+  color: $siui-color-brand-teal-dark;
+}
+
+.colorDefault{
+  color: $siui-icon-color
+}
+
+.baseIcon{
+  font-size: 18px;
+  color: #B0BEC5;
+}
+
+.subIcon{
+  top:14px;
+  left:10px !important;
+  font-size: 16px !important;
+}
+
+.DataErrorSubIcon{
+  top: -8px;
+  color: $siui-icon-color-error;
+}
+
+.DataErrorBaseIcon{
+  color: $siui-color-grey-5;
+}
+
+.draftStatus{
+  color: $siui-icon-color-draft;
+}
+
+.pendingStatus{
+  color: $siui-icon-color-pending;
+}
+
+.activeStatus {
+  color: $siui-icon-color-active;
+}
+
+.deactivatedStatus{
+  color: $siui-icon-color-deactive;
+}
+
+.endedStatus{
+  color: $siui-icon-color-ended;
+}
+
+.disbaledColor{
+  color: $siui-icon-color-disabled
+}

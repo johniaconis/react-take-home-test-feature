@@ -1,0 +1,27 @@
+@import '../../styles/_base.scss';
+
+.tabWindow {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  overflow: scroll;
+}
+
+.contentWrapper {
+  width: 100%;
+  padding: 24px;
+  padding-left: 0px;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+.requiredText {
+  margin-left: 10px;
+  color: $siui-color-brand-teal-med;
+  font-weight: 400;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}

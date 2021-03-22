@@ -1,0 +1,17 @@
+@import '../../styles/_base.scss';
+
+.loadBox {
+
+  width: 80% !important;
+  // max-width: 1080px !important;
+  margin-top: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 40px !important;
+
+  font-family: $siui-font-family !important;
+  font-size: 14px !important;
+}
+
+.loadBoxError {
+    background: light-red;
+}

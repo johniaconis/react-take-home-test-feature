@@ -1,0 +1,30 @@
+ @import '../../styles/_base.scss';
+
+.icon{
+  color: $siui-color-brand-teal-med;
+  margin-left: 25px;
+  font-size: $siui-text-size-med-1;
+}
+// TODO needs to refactor to value component^
+
+.calendarIcon {
+  color: $siui-color-brand-teal-med !important;
+}
+
+.dateString {
+  margin-left: 8px;
+}
+
+.dateStringDefault{
+  margin-left: 8px;
+  margin-top:4px;
+}
+
+.selector {
+  width: 120px;
+}
+
+.rangePicker {  
+  margin-left: 15px;
+  width: 200px;
+}

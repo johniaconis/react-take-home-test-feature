@@ -1,0 +1,153 @@
+@import '../../styles/_base.scss';
+
+.textBase {
+  display: inline-block;
+  font-family: $siui-font-family;
+}
+
+.textSizeSmall3{
+  font-size: $siui-text-size-small-3;
+}
+
+.textSizeSmall2{
+  font-size: $siui-text-size-small-2;
+}
+
+.textSizeSmall1{
+  font-size: $siui-text-size-small-1;
+}
+
+.textSizeNormal {
+  font-size: 12px;
+}
+
+.textSizeMed{
+  font-size: $siui-text-size-med;
+}
+
+.textSizeMed1{
+  font-size: 14px;
+}
+
+.textSizeMed2{
+  font-size: 16px;
+}
+
+.textSizeLarge1{
+  font-size: $siui-text-size-large-1;
+}
+
+.textSizeLarge2{
+  font-size: 20px;
+}
+
+.textSizeXLarge{
+  font-size: 32px;
+}
+
+.textSizeLarge3{
+  font-size: 22px;
+}
+
+.textSizeLarge4{
+  font-size: 24px;
+}
+
+.textSizeAccountCard{
+  font-size: 12px;
+}
+
+.textColorHeadbandLabel{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.textColorNormal{
+  color: $siui-color-normal;
+}
+
+.textColorBlack{
+  color: #333333;
+}
+
+.textColorWhite{
+  color: #ffffff;
+}
+
+.textColorLighter{
+  color: $siui-color-lighter;
+}
+
+.textColorDark {
+  color: rgba(0,0,0,.85);
+}
+
+.textColorLightGrey {
+  color: rgba(85, 84, 89, 0.9);
+}
+
+.textColorGrey3{
+  color: $siui-color-grey-3;
+}
+
+.textColorGrey7{
+  color: $siui-color-grey-7;
+}
+
+.textColorGrey4{
+  color: $siui-color-grey-4;
+}
+
+.textColorGrey5{
+  color: $siui-color-grey-5;
+}
+
+.textColorGrey6{
+  color: $siui-color-grey-6;
+}
+
+.textColorGrey11 {
+  color: $siui-color-grey-11;
+}
+
+.textColorBlue {
+  color: $global-color-blue;
+}
+
+.textColorLinkBlue {
+  color: $siui-link-color;
+}
+
+.textColorPurple {
+  color: $siui-purple-color;
+}
+
+.textColorOptional {
+  color: $siui-purple-color;
+}
+
+.textColorLabel {
+  color: $siui-color-label;
+}
+.textWeightLight1{
+  font-weight: $siui-text-weight-light1;
+}
+
+.textWeightLight2{
+  font-weight: $siui-text-weight-light2;
+}
+
+.textWeightNormal{
+  font-weight: $siui-text-weight-normal;
+}
+
+.textWeightMed{
+  font-weight: $siui-text-weight-med;
+}
+
+.textWeightMed1{
+  font-weight: $siui-text-weight-med1;
+}
+
+.textWeightMed2{
+  font-weight: $siui-text-weight-med2;
+}

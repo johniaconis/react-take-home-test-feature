@@ -1,0 +1,33 @@
+@import '../../styles/_base.scss';
+
+.enumeration{
+	margin-right: 00px;
+	display: inline-block;
+	padding-bottom: 12px;
+}
+
+.withTitle{
+	margin-right: 00px;
+	display: inline-block;
+	padding-bottom: 12px;
+  padding-left: 20px;
+}
+
+.listItem{
+	border-left: 1px solid $siui-divider-color;
+	width: 100%;
+	padding-left: 14px;
+	margin-bottom: 12px;
+}
+
+.listBlock{
+	display: inline-block;
+	width: 100%;
+}
+
+.titlePadding{
+  margin-bottom: 10px;
+  i{
+    padding-right: 8px;
+  }
+}

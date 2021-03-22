@@ -1,0 +1,28 @@
+ @import '../../styles/_base.scss';
+
+.label {
+ display: inline-block;
+}
+
+.dividerDistanceSmall{
+ padding-right: 20px;
+}
+
+.dividerDistanceLarge{
+ padding-right: 300px;
+}
+
+
+.dividerDistanceMedium{
+ padding-right: 44px;
+}
+
+.dividerDistanceDefault{
+ padding-right: 36px;
+}
+
+.divider {
+ display: inline-block;
+ position: inherit;
+ border-right: 1px solid $siui-divider-color
+}

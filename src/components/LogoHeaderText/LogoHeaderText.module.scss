@@ -1,0 +1,18 @@
+@import "../../styles/_base.scss";
+
+.logo {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.divider {
+  border-right: 1px solid $siui-divider-color;
+  width: 2px;
+  margin-top: 9px;
+  margin-right: 8px;
+  height: 20px;
+}
+
+.logoText {
+  padding-top: 8px;
+}

@@ -1,0 +1,41 @@
+@import '../../styles/_base.scss';
+
+
+$c-header-padding: 14px;
+
+.topBreak {
+  position: relative;
+  margin-top: -20px;
+  background: #fff;
+  height: 100%;
+  width: 200%;
+  margin-left: -50%;
+  margin-right: 50%;
+  overflow-x: hidden;
+  border-bottom: 1px solid $siui-divider-color;
+}
+
+.header {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  min-width: $website-min-width;
+}
+
+.horizontalList {
+  display: inline-flex;
+}
+
+.leftList {
+  padding-top: -2px;
+  padding-left: $c-header-padding;
+  margin-left: 14px;
+}
+
+.rightList {
+  margin-top: 2px;
+  margin-right: 25px;
+  padding-right: $c-header-padding;
+}

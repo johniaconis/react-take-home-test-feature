@@ -1,0 +1,41 @@
+@import '../../styles/_base.scss';
+
+leftToolBar {
+  margin-left: 24px;
+}
+
+.topBreak {
+  position: relative;
+  background: #fff;
+  height: 52px;
+  width: 200%;
+  margin-left: -50%;
+  margin-right: 50%;
+  padding: 8px 10px 12px 14px;
+  overflow-x: hidden;
+  border-bottom: 1px solid LightGray;
+}
+
+.wrapper {
+  margin-bottom: 20px;
+}
+
+
+.toolBar {
+  position: absolute;
+  margin-top: -43px;
+  left: 0px;
+  min-width: $website-min-width;
+  padding: 0 10px;
+  padding-left: 10px;
+  background: #fff;
+  width: 100%;
+}
+
+.toolbarComponentWrapper {
+  margin: 2px;
+}
+
+.rightComponent {
+  margin-right: 35px;
+}

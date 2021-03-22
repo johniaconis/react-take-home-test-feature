@@ -1,0 +1,13 @@
+@import '../../styles/_base.scss';
+
+:global(.rw-state-disabled){
+  background-color: $siui-color-input-diabled !important;
+  opacity: 1 !important;
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.container :global(.rw-input){
+  background-color: $siui-color-input-diabled !important;
+  opacity: 1 !important;
+  color: rgba(0, 0, 0, 0.25) !important;
+}

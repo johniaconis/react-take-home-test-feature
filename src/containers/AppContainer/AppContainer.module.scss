@@ -1,0 +1,34 @@
+@import '../../styles/_base.scss';
+
+.appContainer {
+  background-color: $siui-color-body-background !important;
+  overflow-x: hidden !important;
+}
+
+.preloginContainer {
+  height: 100vh; // take 100% of the viw port height
+  overflow-x: hidden !important;
+  background-image: linear-gradient(216deg, #0761b7, #a3caee) !important;
+}
+
+.appContainer :global(.ant-layout-header) {
+  background-color: $siui-color-navbar-background !important;
+}
+
+.preloginContainer :global(.ant-layout-header) {
+  background-color: white;
+}
+
+.appContainer :global(.ant-layout) {
+  background-color: $siui-color-body-background !important;
+}
+
+.footer {
+  background-color: $siui-color-body-background !important;
+  text-align: center;
+}
+
+.preloginFooter {
+  color: white;
+  text-align: center;
+}
